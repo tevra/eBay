@@ -1,116 +1,540 @@
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>eBay Template</title>
-<link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700|Raleway:700" rel="stylesheet">
-<link rel="stylesheet" href="http://mylistingtemplate.com/conversion-template/style/green-154682.css">
-<link rel="stylesheet" href="http://mylistingtemplate.com/conversion-template/style/font-awesome.min.css">
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, button,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, input, label, legend, textarea,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box; }
 
-<div class="body">
-	<section class="main-wrap">
-	<header class="wrap">
-	<div class="inner-wrap flex-head">
-	<div class="logo">
-	<span class="title">Company Name</span>
-	<span class="subtitle">Slogan Text Goes Here</span>
-	</div>
-	<ul class="nav">
-	<li><a href="http://www.ebay.co.uk/sch/tevra/m.html?_nkw=&_armrs=1&_ipg=&_from="><i class="fa fa-home" aria-hidden="true"></i>Shop</a></li>
-	<li><a href="http://www.ebay.co.uk/usr/tevra"><i class="fa fa-info" aria-hidden="true"></i>About Us</a></li>
-	<li><a href="http://feedback.ebay.co.uk/ws/eBayISAPI.dll?ViewFeedback2&userid=tevra&ftab=AllFeedback&myworld=true&rt=nc&_trksid=p2050430.m2531.l4585"><i class="fa fa-star" aria-hidden="true"></i>Feedback</a></li>
-	<li><a href="http://contact.ebay.co.uk/ws/eBayISAPI.dll?FindAnswers&requested=tevra&_trksid=p2050430.m2531.l4583&rt=nc&iid=322316526098"><i class="fa fa-phone" aria-hidden="true"></i>Contact</a></li>
-	</ul>
-	</div>
-	</header>
-	<main class="wrap">
-	<div class="inner-wrap flex-main">
-	<div class="prod-img-cont">
-	<img class="main-img" src="http://mylistingtemplate.com/conversion-template/img/mk.jpg" alt="">
-	</div>
-	<div class="prod-desc-cont">
-	<h1>Product Title</h1>
-	<div class="card desc desc-side">
-	<div>
-	<span>Price:</span>
-	<span class="price">£245.95</span>
-	</div>
-	<a class="btn" href="http://contact.ebay.co.uk/ws/eBayISAPI.dll?FindAnswers&requested=tevra&_trksid=p2050430.m2531.l4583&rt=nc&iid=322316526098">Ask a Question</a>
-	</div>
-	<div class="features">
-	<h2>Key Features:</h2>
-	<ul>
-	<li>Key feature 1.</li>
-	<li>Key feature 2.</li>
-	<li>Key feature 3.</li>
-	<li>Key feature 4.</li>
-	<li>Key feature 5.</li>
-	</ul>
-	</div>
-	</div>
-	<div class="sellers">
-	<div class="card">
-	<i class="fa fa-shield" aria-hidden="true"></i>
-	<div>
-	<h3>Trusted Merchant</h3>
-	<p>Selling point, supporting text goes here.</p>
-	</div>
-	</div>
-	<div class="card">
-	<i class="fa fa-truck" aria-hidden="true"></i>
-	<div>
-	<h3>Express Delivery</h3>
-	<p>Selling point, supporting text goes here.</p>
-	</div>
-	</div>
-	<div class="card">
-	<i class="fa fa-comments" aria-hidden="true"></i>
-	<div>
-	<h3>Customer Support</h3>
-	<p>Selling point, supporting text goes here.</p>
-	</div>
-	</div>
-	</div>
-	</div>
-	</main>
-	</section>
-	<section class="secondary-wrap">
-	<div class="wrap">
-	<div class="inner-wrap tabs">
-	<input class="tabbers" type="radio" name="tabs" id="tab1" checked />
-	<label class="tabbers" for="tab1">
-	<i class="fa fa-tags" aria-hidden="true"></i><span>Product Description</span>
-	</label>
-	<input class="tabbers" type="radio" name="tabs" id="tab2">
-	<label class="tabbers" for="tab2">
-	<i class="fa fa-cubes" aria-hidden="true"></i></i><span>Shipping &amp; Payments</span>
-	</label>
-	<div id="tab-content1" class="tab-content">
-	<h3>Product Description</h3>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus non ipsam ducimus ab iure cum, asperiores quaerat quo magnam omnis, veniam fugiat voluptatum iusto distinctio labore id quidem ipisicing elit. Repudiandae dolore voluptatibus eius facere ducimus, laudantium quos sint provident, enim eveniet illum, laboriosam velit vero.
-	</p><p>Dolores commodi ipsum veniam ex nesciunt!ipisicing elit. Repudiandae dolore voluptatibus eius facere ducimus, laudantium quos sint provident, enim eveniet illum, laboriosam velit vero. Dolores commodi ipsum veniam ex nesciunt!inventore corporis.</p>
-	</div>
-	<div id="tab-content2" class="tab-content">
-	<h3>Shipping &amp; Payments</h3>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae dolore voluptatibus eius facere ducimus, laudantium quos sint provident, enim eveniet illum, <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae dolore voluptatibus eius facere ducimus, laudantium quos sint provident, enim eveniet illum, laboriosam velit vero. Dolores commodi ipsum veniam ex nesciunt!ipisicing elit. Repudiandae dolore voluptatibus eius facere ducimus, laudantium quos sint provident, enim eveniet illum, laboriosam velit vero. Dolores commodi ipsum veniam ex nesciunt!ipisicing elit.</p><p>Repudiandae dolore voluptatibus eius facere ducimus, laudantium quos sint provident, enim eveniet illum, laboriosam velit vero. Dolores commodi ipsum veniam ex nesciunt!ipisicing elit. Repudiandae dolore voluptatibus eius facere ducimus, laudantium quos sint provident, enim eveniet illum, laboriosam velit vero. Dolores commodi ipsum veniam ex nesciunt!</p>
-	</div>
-	</div>
-	</div>
-	</section>
-	<footer>
-	<div class="wrap">
-	<div class="inner-wrap footer">
-	<ul class="footer-nav">
-	<li><a href="http://www.ebay.co.uk/sch/tevra/m.html?_nkw=&_armrs=1&_ipg=&_from="><i class="fa fa-home" aria-hidden="true"></i>Shop</a></li>
-	<li><a href="http://www.ebay.co.uk/usr/tevra"><i class="fa fa-info" aria-hidden="true"></i>About Us</a></li>
-	<li><a href="http://feedback.ebay.co.uk/ws/eBayISAPI.dll?ViewFeedback2&userid=tevra&ftab=AllFeedback&myworld=true&rt=nc&_trksid=p2050430.m2531.l4585"><i class="fa fa-star" aria-hidden="true"></i>Feedback</a></li>
-	<li><a href="http://contact.ebay.co.uk/ws/eBayISAPI.dll?FindAnswers&requested=tevra&_trksid=p2050430.m2531.l4583&rt=nc&iid=322316526098"><i class="fa fa-phone" aria-hidden="true"></i>Contact</a></li>
-	</ul>
-	<ul class="contact">
-	<li>Tel: <span>00000 000000</span></li>
-	<li>Email: <span>me@outlook.com</span></li>
-	<li>Address: <span>375 Cadburys St, Manchester, M00 0JW</span></li>
-	</ul>
-	<span class="copyright"><i>Listing created by</i><a href="http://www.ebay.co.uk/usr/eseller-store" target="_blank">GAVGO</a></span>
-	</div>
-	</div>
-	</footer>
-</div>
+*, *:before, *:after {
+  box-sizing: inherit;
+  box-sizing: border-box; }
+
+body {
+  line-height: 1;
+  height: 100%; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0; }
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+textarea {
+  resize: none;
+  overflow: auto; }
+
+html {
+  font-size: 62.5%; }
+
+body,
+.body {
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-family: "Arimo", "Helvetica", "Arial", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #808080; }
+
+h1 {
+  font-size: 28px;
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: #4b4b4b;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dcdcdc;
+  letter-spacing: -1px;
+  line-height: 32px;
+  align-self: flex-start;
+  font-family: "Raleway", "Helvetica", "Arial", sans-serif; }
+
+h2 {
+  font-size: 22px;
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #4b4b4b;
+  margin-bottom: 10px;
+  font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dcdcdc;
+  letter-spacing: -1px; }
+
+h3 {
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #4b4b4b; }
+
+h4 {
+  font-size: 18px;
+  font-size: 1.8rem;
+  color: #4b4b4b;
+  margin-bottom: 20px;
+  font-weight: 600; }
+
+p {
+  margin-bottom: 5px;
+  line-height: 28px;
+  font-size: 16px;
+  font-size: 1.6rem;
+  color: #808080;
+  font-weight: 400; }
+
+p a {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  text-decoration: underline; }
+  p a:hover {
+    color: #a5c63b; }
+
+span {
+  font-size: 16px;
+  font-size: 1.6rem;
+  color: #808080;
+  display: block; }
+
+a {
+  color: #808080;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1.6rem;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s; }
+  a:hover {
+    color: #a5c63b; }
+
+ul {
+  font-size: 0; }
+
+ul li,
+ol li {
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 28px; }
+
+ul li a,
+button {
+  color: #808080;
+  font-size: 16px;
+  font-size: 1.6rem; }
+
+i,
+input,
+td {
+  font-size: 16px;
+  font-size: 1.6rem; }
+
+small {
+  font-size: 12px;
+  font-size: 1.2rem; }
+
+textarea {
+  font-family: "Arimo", "Helvetica", "Arial", sans-serif; }
+
+html {
+  min-height: 100%; }
+
+.wrap {
+  max-width: 1020px;
+  display: block;
+  margin: 0 auto;
+  font-size: 0;
+  height: inherit; }
+
+.inner-wrap {
+  padding: 2.94118%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
+.main-wrap {
+  background-color: #ececee; }
+
+.secondary-wrap {
+  background-color: #ffffff; }
+
+i {
+  vertical-align: inherit;
+  margin-right: 5px; }
+  i:before {
+    vertical-align: top; }
+
+.card {
+  background-color: #ffffff;
+  box-shadow: -10px 5px 20px 5px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  margin-bottom: 30px; }
+
+.flex-head {
+  justify-content: space-between;
+  border-bottom: 1px solid #dcdcdc; }
+
+.nav {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center; }
+  .nav li a {
+    padding: 0 20px;
+    vertical-align: text-top; }
+    .nav li a i {
+      color: #a5c63b; }
+
+.logo {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  font-size: 0;
+  vertical-align: top;
+  text-align: center;
+  width: 200px; }
+  .logo img {
+    width: 100%;
+  }
+  .logo .title {
+    font-size: 40px;
+    font-size: 4rem;
+    font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+    margin-bottom: .5rem;
+    color: #a5c63b;
+    text-shadow: -1px 1px 0px #8fab32; }
+
+@media only screen and (max-width: 767px) {
+  .flex-head {
+    flex-wrap: wrap;
+    border: 0;
+    padding: 2.94118% 0; }
+
+  .logo {
+    margin: auto auto 20px;
+    border-bottom: 1px solid #dcdcdc;
+    width: 100%;
+    padding-bottom: 20px; }
+
+  .nav {
+    margin: auto;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%; }
+    .nav li {
+      background: #a5c63b;
+      display: block;
+      width: 100%;
+      border-top: 1px solid #b2ce57;
+      border-bottom: 1px solid #8fab32; }
+      .nav li a {
+        color: #ffffff;
+        padding: 10px; }
+        .nav li a i {
+          color: #ffffff; } }
+.flex-main {
+  flex-wrap: wrap; }
+
+.prod-img-cont {
+  max-width: 500px;
+  width: 53%;
+  vertical-align: top; }
+  .prod-img-cont > img {
+    box-shadow: -10px 5px 20px 5px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    margin-top: 0 !important; }
+
+.prod-desc-cont {
+  max-width: 460px;
+  width: 47%;
+  padding-left: 30px; }
+
+.desc span {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: top;
+  font-weight: 600; }
+.desc div {
+  display: block;
+  vertical-align: top;
+  margin-bottom: 20px; }
+.desc .price {
+  font-size: 40px;
+  font-size: 4rem;
+  color: #a5c63b;
+  line-height: 0.8;
+  padding-left: 20px; }
+.desc .btn {
+  width: 48%;
+  padding: 10px;
+  background-color: #a5c63b;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  color: #ffffff;
+  text-align: center; }
+  .desc .btn:first-of-type {
+    margin-right: 4%; }
+  .desc .btn:hover {
+    background-color: #8ba731; }
+
+.sellers {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 30px;
+  width: 100%; }
+  .sellers .card {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    width: 32%;
+    margin: 0;
+    margin-right: 2%; }
+    .sellers .card:last-of-type {
+      margin-right: 0; }
+  .sellers i {
+    font-size: 39px;
+    font-size: 3.9rem;
+    margin-right: 20px;
+    color: #4b4b4b;
+    color: #a5c63b; }
+  .sellers h3 {
+    margin-bottom: 10px; }
+  .sellers p {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    min-height: 56px; }
+
+.features ul {
+  padding-left: 20px; }
+  .features ul li {
+    list-style: disc; }
+
+@media only screen and (max-width: 767px) {
+  .prod-img-cont,
+  .prod-desc-cont {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    padding: 0; }
+
+  .prod-img-cont {
+    margin-bottom: 20px; }
+
+  .desc .btn {
+    width: 100%; }
+    .desc .btn:first-of-type {
+      margin-bottom: 10px;
+      margin-right: 0; }
+
+  .sellers {
+    flex-wrap: wrap;
+    text-align: center; }
+    .sellers .card {
+      width: 100%;
+      margin-bottom: 10px;
+      margin-right: 0;
+      justify-content: center; }
+    .sellers p {
+      min-height: auto; } }
+.tabs {
+  float: none;
+  list-style: none;
+  padding-top: 0;
+  flex-wrap: wrap; }
+  .tabs:after {
+    content: '';
+    display: table;
+    clear: both; }
+  .tabs input[type=radio] {
+    display: none; }
+  .tabs label {
+    display: block;
+    float: left;
+    width: 32%;
+    color: #808080;
+    font-size: 30px;
+    font-size: 3rem;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+    vertical-align: super;
+    padding: 10px; }
+    .tabs label span {
+      display: inline-block;
+      *display: inline;
+      *zoom: 1;
+      vertical-align: text-top;
+      color: #808080;
+      line-height: 2.5; }
+    .tabs label i {
+      padding: 5px;
+      vertical-align: bottom; }
+    .tabs label:hover, .tabs label:hover span {
+      color: #c9c9c9; }
+  .tabs h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-size: 2.4rem; }
+
+.tab-content {
+  display: none;
+  width: 100%;
+  float: left;
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: #ffffff; }
+  .tab-content p {
+    margin-bottom: 20px; }
+  .tab-content a {
+    color: #a5c63b; }
+  .tab-content ul {
+    list-style-type: disc;
+    padding-left: 20px; }
+
+.tab-content * {
+  -webkit-animation: scale 0.7s ease-in-out;
+  -moz-animation: scale 0.7s ease-in-out;
+  animation: scale 0.7s ease-in-out; }
+
+@keyframes scale {
+  0% {
+    transform: scale(0.9);
+    opacity: 0; }
+  50% {
+    transform: scale(1.01);
+    opacity: 0.5; }
+  100% {
+    transform: scale(1);
+    opacity: 1; } }
+.tabs [id^="tab"]:checked + label {
+  background: #a5c63b;
+  color: #ffffff; }
+  .tabs [id^="tab"]:checked + label:hover, .tabs [id^="tab"]:checked + label:hover span {
+    color: #ffffff; }
+  .tabs [id^="tab"]:checked + label span {
+    color: #ffffff; }
+
+#tab1:checked ~ #tab-content1,
+#tab2:checked ~ #tab-content2,
+#tab3:checked ~ #tab-content3 {
+  display: block; }
+
+@media only screen and (max-width: 767px) {
+  .tabbers {
+    display: none !important; }
+
+  .tab-content {
+    display: block; } }
+footer {
+  background: #383838; }
+  footer .footer {
+    flex-wrap: wrap;
+    text-align: center; }
+  footer ul {
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px; }
+    footer ul a {
+      padding: 0 20px;
+      vertical-align: text-bottom;
+      color: #a5c63b; }
+      footer ul a:hover {
+        color: #8ba731; }
+  footer .footer-nav {
+    border-bottom: 1px solid #808080;
+    padding-bottom: 2.94118%; }
+  footer .contact li {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; }
+    footer .contact li span {
+      color: #c9c9c9;
+      padding: 0 20px; }
+  footer .copyright {
+    width: 100%; }
+    footer .copyright a {
+      color: #a5c63b;
+      display: inline-block;
+      *display: inline;
+      *zoom: 1; }
+      footer .copyright a img {
+        vertical-align: middle; }
+
+@media only screen and (max-width: 767px) {
+  footer ul {
+    flex-wrap: wrap;
+    text-align: center; }
+    footer ul li {
+      width: 100%;
+      margin-bottom: 10px; }
+      footer ul li:last-of-type {
+        margin-bottom: 0; }
+
+  footer .contact li {
+    justify-content: space-between; } }
+
+/*# sourceMappingURL=main.css.map */

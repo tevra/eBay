@@ -1,0 +1,116 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>eBay Template</title>
+<link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700|Raleway:700" rel="stylesheet">
+<link rel="stylesheet" href="http://mylistingtemplate.com/conversion-template/style/green-154682.css">
+<link rel="stylesheet" href="http://mylistingtemplate.com/conversion-template/style/font-awesome.min.css">
+
+<div class="body">
+	<section class="main-wrap">
+	<header class="wrap">
+	<div class="inner-wrap flex-head">
+	<div class="logo">
+	<span class="title">Company Name</span>
+	<span class="subtitle">Slogan Text Goes Here</span>
+	</div>
+	<ul class="nav">
+	<li><a href="http://www.ebay.co.uk/sch/tevra/m.html?_nkw=&_armrs=1&_ipg=&_from="><i class="fa fa-home" aria-hidden="true"></i>Shop</a></li>
+	<li><a href="http://www.ebay.co.uk/usr/tevra"><i class="fa fa-info" aria-hidden="true"></i>About Us</a></li>
+	<li><a href="http://feedback.ebay.co.uk/ws/eBayISAPI.dll?ViewFeedback2&userid=tevra&ftab=AllFeedback&myworld=true&rt=nc&_trksid=p2050430.m2531.l4585"><i class="fa fa-star" aria-hidden="true"></i>Feedback</a></li>
+	<li><a href="http://contact.ebay.co.uk/ws/eBayISAPI.dll?FindAnswers&requested=tevra&_trksid=p2050430.m2531.l4583&rt=nc&iid=322316526098"><i class="fa fa-phone" aria-hidden="true"></i>Contact</a></li>
+	</ul>
+	</div>
+	</header>
+	<main class="wrap">
+	<div class="inner-wrap flex-main">
+	<div class="prod-img-cont">
+	<img class="main-img" src="http://mylistingtemplate.com/conversion-template/img/mk.jpg" alt="">
+	</div>
+	<div class="prod-desc-cont">
+	<h1>Product Title</h1>
+	<div class="card desc desc-side">
+	<div>
+	<span>Price:</span>
+	<span class="price">£245.95</span>
+	</div>
+	<a class="btn" href="http://contact.ebay.co.uk/ws/eBayISAPI.dll?FindAnswers&requested=tevra&_trksid=p2050430.m2531.l4583&rt=nc&iid=322316526098">Ask a Question</a>
+	</div>
+	<div class="features">
+	<h2>Key Features:</h2>
+	<ul>
+	<li>Key feature 1.</li>
+	<li>Key feature 2.</li>
+	<li>Key feature 3.</li>
+	<li>Key feature 4.</li>
+	<li>Key feature 5.</li>
+	</ul>
+	</div>
+	</div>
+	<div class="sellers">
+	<div class="card">
+	<i class="fa fa-shield" aria-hidden="true"></i>
+	<div>
+	<h3>Trusted Merchant</h3>
+	<p>Selling point, supporting text goes here.</p>
+	</div>
+	</div>
+	<div class="card">
+	<i class="fa fa-truck" aria-hidden="true"></i>
+	<div>
+	<h3>Express Delivery</h3>
+	<p>Selling point, supporting text goes here.</p>
+	</div>
+	</div>
+	<div class="card">
+	<i class="fa fa-comments" aria-hidden="true"></i>
+	<div>
+	<h3>Customer Support</h3>
+	<p>Selling point, supporting text goes here.</p>
+	</div>
+	</div>
+	</div>
+	</div>
+	</main>
+	</section>
+	<section class="secondary-wrap">
+	<div class="wrap">
+	<div class="inner-wrap tabs">
+	<input class="tabbers" type="radio" name="tabs" id="tab1" checked />
+	<label class="tabbers" for="tab1">
+	<i class="fa fa-tags" aria-hidden="true"></i><span>Product Description</span>
+	</label>
+	<input class="tabbers" type="radio" name="tabs" id="tab2">
+	<label class="tabbers" for="tab2">
+	<i class="fa fa-cubes" aria-hidden="true"></i></i><span>Shipping &amp; Payments</span>
+	</label>
+	<div id="tab-content1" class="tab-content">
+	<h3>Product Description</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus non ipsam ducimus ab iure cum, asperiores quaerat quo magnam omnis, veniam fugiat voluptatum iusto distinctio labore id quidem ipisicing elit. Repudiandae dolore voluptatibus eius facere ducimus, laudantium quos sint provident, enim eveniet illum, laboriosam velit vero.
+	</p><p>Dolores commodi ipsum veniam ex nesciunt!ipisicing elit. Repudiandae dolore voluptatibus eius facere ducimus, laudantium quos sint provident, enim eveniet illum, laboriosam velit vero. Dolores commodi ipsum veniam ex nesciunt!inventore corporis.</p>
+	</div>
+	<div id="tab-content2" class="tab-content">
+	<h3>Shipping &amp; Payments</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae dolore voluptatibus eius facere ducimus, laudantium quos sint provident, enim eveniet illum, <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae dolore voluptatibus eius facere ducimus, laudantium quos sint provident, enim eveniet illum, laboriosam velit vero. Dolores commodi ipsum veniam ex nesciunt!ipisicing elit. Repudiandae dolore voluptatibus eius facere ducimus, laudantium quos sint provident, enim eveniet illum, laboriosam velit vero. Dolores commodi ipsum veniam ex nesciunt!ipisicing elit.</p><p>Repudiandae dolore voluptatibus eius facere ducimus, laudantium quos sint provident, enim eveniet illum, laboriosam velit vero. Dolores commodi ipsum veniam ex nesciunt!ipisicing elit. Repudiandae dolore voluptatibus eius facere ducimus, laudantium quos sint provident, enim eveniet illum, laboriosam velit vero. Dolores commodi ipsum veniam ex nesciunt!</p>
+	</div>
+	</div>
+	</div>
+	</section>
+	<footer>
+	<div class="wrap">
+	<div class="inner-wrap footer">
+	<ul class="footer-nav">
+	<li><a href="http://www.ebay.co.uk/sch/tevra/m.html?_nkw=&_armrs=1&_ipg=&_from="><i class="fa fa-home" aria-hidden="true"></i>Shop</a></li>
+	<li><a href="http://www.ebay.co.uk/usr/tevra"><i class="fa fa-info" aria-hidden="true"></i>About Us</a></li>
+	<li><a href="http://feedback.ebay.co.uk/ws/eBayISAPI.dll?ViewFeedback2&userid=tevra&ftab=AllFeedback&myworld=true&rt=nc&_trksid=p2050430.m2531.l4585"><i class="fa fa-star" aria-hidden="true"></i>Feedback</a></li>
+	<li><a href="http://contact.ebay.co.uk/ws/eBayISAPI.dll?FindAnswers&requested=tevra&_trksid=p2050430.m2531.l4583&rt=nc&iid=322316526098"><i class="fa fa-phone" aria-hidden="true"></i>Contact</a></li>
+	</ul>
+	<ul class="contact">
+	<li>Tel: <span>00000 000000</span></li>
+	<li>Email: <span>me@outlook.com</span></li>
+	<li>Address: <span>375 Cadburys St, Manchester, M00 0JW</span></li>
+	</ul>
+	<span class="copyright"><i>Listing created by</i><a href="http://www.ebay.co.uk/usr/eseller-store" target="_blank">GAVGO</a></span>
+	</div>
+	</div>
+	</footer>
+</div>
